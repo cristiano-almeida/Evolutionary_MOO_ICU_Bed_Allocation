@@ -126,8 +126,11 @@ Cada subpasta (**BALANCEADO / EXPLORATÓRIO / EXPLOTATIVO**) contém:
 - **2026_cec_hospital_optimization.pdf**  
   Artigo científico completo submetido ao CEC 2026.
 
-- **Guia Técnico-científico.pdf**  
+- **Guia Técnico-científico Completo – Otimização Multiobjetivo De Leitos De Uti (cec_wcci).pdf**  
   Documentação detalhada da metodologia multiobjetivo.
+
+- **Guia Didático Em Português – Referência Comentada Do Artigo (cec_wcci).pdff**  
+  Roteiro detalhado sobre o artigo.
 
 ---
 
