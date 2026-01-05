@@ -1,0 +1,95 @@
+====================================================================================================
+🔴 DOSSIÊ DE AUDITORIA V11 - ANÁLISE DE INSOLVÊNCIA HOSPITALAR
+Emissão: 2025-12-25 12:52:10.797209 | Log: log_exploratorio (1).txt
+====================================================================================================
+
+--- [SEÇÃO 1: EVOLUÇÃO DO ALGORITMO] ---
+Geração de Viabilidade: 166
+Diversidade Final (Pareto Size): 13
+Variação de CV_AVG: [7.3857142857, 5.9285714286, 5.1914285714, 4.6514285714, 4.2342857143, 3.9542857143, 3.7342857143, 3.5171428571, 3.2742857143, 3.1514285714, 3.0171428571, 2.8657142857, 2.76, 2.6171428571, 2.5457142857, 2.46, 2.3857142857, 2.32, 2.2514285714, 2.1942857143, 2.1542857143, 2.1028571429, 2.0228571429, 1.9457142857, 1.9057142857, 1.8342857143, 1.7885714286, 1.7542857143, 1.7314285714, 1.7285714286, 1.7228571429, 1.6971428571, 1.6828571429, 1.66, 1.6314285714, 1.6057142857, 1.5857142857, 1.56, 1.5428571429, 1.5171428571, 1.5, 1.4771428571, 1.4457142857, 1.4085714286, 1.3657142857, 1.3457142857, 1.3285714286, 1.2942857143, 1.2714285714, 1.2485714286, 1.2257142857, 1.1942857143, 1.1657142857, 1.1457142857, 1.12, 1.1, 1.0885714286, 1.0542857143, 1.0285714286, 0.9971428571, 0.9628571429, 0.9457142857, 0.9228571429, 0.9028571429, 0.8771428571, 0.8685714286, 0.8657142857, 0.8657142857, 0.84, 0.8371428571, 0.8342857143, 0.8314285714, 0.8228571429, 0.8171428571, 0.8085714286, 0.8057142857, 0.7971428571, 0.7914285714, 0.78, 0.7685714286, 0.76, 0.7571428571, 0.74, 0.7342857143, 0.7257142857, 0.72, 0.7171428571, 0.7114285714, 0.7085714286, 0.7028571429, 0.6942857143, 0.68, 0.6771428571, 0.6714285714, 0.6685714286, 0.6571428571, 0.6514285714, 0.6428571429, 0.6342857143, 0.6285714286, 0.6171428571, 0.6171428571, 0.6085714286, 0.5914285714, 0.5857142857, 0.58, 0.5742857143, 0.5742857143, 0.5657142857, 0.5514285714, 0.5285714286, 0.5171428571, 0.5114285714, 0.4971428571, 0.4971428571, 0.4885714286, 0.4857142857, 0.4771428571, 0.4714285714, 0.4685714286, 0.4514285714, 0.4485714286, 0.4428571429, 0.4371428571, 0.4314285714, 0.4285714286, 0.4228571429, 0.4142857143, 0.4114285714, 0.4, 0.3885714286, 0.3828571429, 0.3714285714, 0.3628571429, 0.3485714286, 0.3314285714, 0.32, 0.3114285714, 0.2914285714, 0.2828571429, 0.2685714286, 0.2542857143, 0.24, 0.2314285714, 0.2171428571, 0.2057142857, 0.2, 0.1914285714, 0.1771428571, 0.1628571429, 0.1514285714, 0.1342857143, 0.12, 0.1171428571, 0.1114285714, 0.1, 0.0914285714, 0.0828571429, 0.0628571429, 0.0514285714, 0.0428571429, 0.0371428571, 0.02, 0.0171428571, 0.0057142857, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+--- [SEÇÃO 2: MÉTRICAS COMPARATIVAS GLOBAIS] ---
+Estratégia: relatorio_gde3_maior_utilizacao (1).csv | Espera: 25229.0h | Risco: 89699.0 | Débito: 9070.0h
+Estratégia: relatorio_gde3_menor_custo_terminal (1).csv | Espera: 26654.0h | Risco: 90382.0 | Débito: 8599.0h
+Estratégia: relatorio_gde3_menor_risco_clinico (1).csv | Espera: 22351.0h | Risco: 75133.0 | Débito: 11447.0h
+Estratégia: relatorio_gde3_menor_tempo_espera (1).csv | Espera: 22311.0h | Risco: 82273.0 | Débito: 16907.0h
+Estratégia: relatorio_gde3_solucao_balanceada (1).csv | Espera: 26654.0h | Risco: 90382.0 | Débito: 8599.0h
+
+--- [SEÇÃO 3: AUDITORIA NOMINAL POR ESTRATÉGIA] ---
+
+>> ANÁLISE DETALHADA: relatorio_gde3_maior_utilizacao (1).csv
+   * Taxa de Transbordamento (Estouro): 14 pacientes
+     - AIH 3124125770799 (Grav 3): Estouro de 141h (Sai em 1341h)
+     - AIH 3124125769336 (Grav 7): Estouro de 31h (Sai em 1231h)
+     - AIH 3124125773989 (Grav 3): Estouro de 48h (Sai em 1248h)
+     - AIH 3124125772295 (Grav 7): Estouro de 16h (Sai em 1216h)
+     - AIH 3124125784164 (Grav 3): Estouro de 407h (Sai em 1607h)
+     - AIH 3124125786815 (Grav 7): Estouro de 334h (Sai em 1534h)
+     - AIH 3124125801885 (Grav 3): Estouro de 144h (Sai em 1344h)
+     - AIH 3124125799465 (Grav 3): Estouro de 151h (Sai em 1351h)
+     - AIH 3124125799619 (Grav 3): Estouro de 62h (Sai em 1262h)
+     - AIH 3124125795714 (Grav 3): Estouro de 215h (Sai em 1415h)
+     - AIH 3124125803139 (Grav 3): Estouro de 104h (Sai em 1304h)
+     - AIH 3124125802974 (Grav 3): Estouro de 216h (Sai em 1416h)
+     - AIH 3124125807320 (Grav 7): Estouro de 211h (Sai em 1411h)
+     - AIH 3124125810201 (Grav 3): Estouro de 154h (Sai em 1354h)
+   * [CRÍTICO] PACIENTES NÃO ALOCADOS: 2
+     - AIH 3124125801885 (Grav 3): FCOU SEM LEITO NO HORIZONTE
+     - AIH 3124125802974 (Grav 3): FCOU SEM LEITO NO HORIZONTE
+
+>> ANÁLISE DETALHADA: relatorio_gde3_menor_custo_terminal (1).csv
+   * Taxa de Transbordamento (Estouro): 9 pacientes
+     - AIH 3124125770315 (Grav 3): Estouro de 72h (Sai em 1272h)
+     - AIH 3124125784164 (Grav 3): Estouro de 593h (Sai em 1793h)
+     - AIH 3124125788510 (Grav 3): Estouro de 399h (Sai em 1599h)
+     - AIH 3124125788014 (Grav 3): Estouro de 154h (Sai em 1354h)
+     - AIH 3124125792810 (Grav 3): Estouro de 171h (Sai em 1371h)
+     - AIH 3124125799465 (Grav 3): Estouro de 258h (Sai em 1458h)
+     - AIH 3124125795406 (Grav 3): Estouro de 20h (Sai em 1220h)
+     - AIH 3124125803139 (Grav 3): Estouro de 315h (Sai em 1515h)
+     - AIH 3124125807320 (Grav 7): Estouro de 379h (Sai em 1579h)
+   * [CRÍTICO] PACIENTES NÃO ALOCADOS: 1
+     - AIH 3124125770315 (Grav 3): FCOU SEM LEITO NO HORIZONTE
+
+>> ANÁLISE DETALHADA: relatorio_gde3_menor_risco_clinico (1).csv
+   * Taxa de Transbordamento (Estouro): 9 pacientes
+     - AIH 3124125772295 (Grav 7): Estouro de 323h (Sai em 1523h)
+     - AIH 3124125787739 (Grav 3): Estouro de 109h (Sai em 1309h)
+     - AIH 3124125784164 (Grav 3): Estouro de 624h (Sai em 1824h)
+     - AIH 3124125788510 (Grav 3): Estouro de 469h (Sai em 1669h)
+     - AIH 3124125799619 (Grav 3): Estouro de 72h (Sai em 1272h)
+     - AIH 3124125810476 (Grav 3): Estouro de 50h (Sai em 1250h)
+     - AIH 3124125804118 (Grav 3): Estouro de 23h (Sai em 1223h)
+     - AIH 3124125807320 (Grav 7): Estouro de 612h (Sai em 1812h)
+     - AIH 3124125810201 (Grav 3): Estouro de 287h (Sai em 1487h)
+   * [CRÍTICO] PACIENTES NÃO ALOCADOS: 1
+     - AIH 3124125799619 (Grav 3): FCOU SEM LEITO NO HORIZONTE
+
+>> ANÁLISE DETALHADA: relatorio_gde3_menor_tempo_espera (1).csv
+   * Taxa de Transbordamento (Estouro): 10 pacientes
+     - AIH 3124125791721 (Grav 3): Estouro de 450h (Sai em 1650h)
+     - AIH 3124125772295 (Grav 7): Estouro de 633h (Sai em 1833h)
+     - AIH 3124125790016 (Grav 3): Estouro de 26h (Sai em 1226h)
+     - AIH 3124125784164 (Grav 3): Estouro de 568h (Sai em 1768h)
+     - AIH 3124125788510 (Grav 3): Estouro de 502h (Sai em 1702h)
+     - AIH 3124125786815 (Grav 7): Estouro de 251h (Sai em 1451h)
+     - AIH 3124125795714 (Grav 3): Estouro de 230h (Sai em 1430h)
+     - AIH 3124125804767 (Grav 3): Estouro de 11h (Sai em 1211h)
+     - AIH 3124125807320 (Grav 7): Estouro de 642h (Sai em 1842h)
+     - AIH 3124125810201 (Grav 3): Estouro de 288h (Sai em 1488h)
+   * [CRÍTICO] PACIENTES NÃO ALOCADOS: 1
+     - AIH 3124125810201 (Grav 3): FCOU SEM LEITO NO HORIZONTE
+
+>> ANÁLISE DETALHADA: relatorio_gde3_solucao_balanceada (1).csv
+   * Taxa de Transbordamento (Estouro): 9 pacientes
+     - AIH 3124125770315 (Grav 3): Estouro de 72h (Sai em 1272h)
+     - AIH 3124125784164 (Grav 3): Estouro de 593h (Sai em 1793h)
+     - AIH 3124125788510 (Grav 3): Estouro de 399h (Sai em 1599h)
+     - AIH 3124125788014 (Grav 3): Estouro de 154h (Sai em 1354h)
+     - AIH 3124125792810 (Grav 3): Estouro de 171h (Sai em 1371h)
+     - AIH 3124125799465 (Grav 3): Estouro de 258h (Sai em 1458h)
+     - AIH 3124125795406 (Grav 3): Estouro de 20h (Sai em 1220h)
+     - AIH 3124125803139 (Grav 3): Estouro de 315h (Sai em 1515h)
+     - AIH 3124125807320 (Grav 7): Estouro de 379h (Sai em 1579h)
+   * [CRÍTICO] PACIENTES NÃO ALOCADOS: 1
+     - AIH 3124125770315 (Grav 3): FCOU SEM LEITO NO HORIZONTE

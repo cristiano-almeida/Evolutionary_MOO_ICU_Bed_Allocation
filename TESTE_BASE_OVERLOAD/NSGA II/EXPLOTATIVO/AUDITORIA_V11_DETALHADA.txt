@@ -1,0 +1,49 @@
+====================================================================================================
+🔴 DOSSIÊ DE AUDITORIA V11 - ANÁLISE DE INSOLVÊNCIA HOSPITALAR
+Emissão: 2025-12-25 12:23:53.863581 | Log: log_explotativo.txt
+====================================================================================================
+
+--- [SEÇÃO 1: EVOLUÇÃO DO ALGORITMO] ---
+Geração de Viabilidade: 20
+Diversidade Final (Pareto Size): 3
+Variação de CV_AVG: [7.3857142857, 5.5771428571, 4.7942857143, 4.26, 3.6171428571, 3.2257142857, 2.7857142857, 2.4885714286, 2.1771428571, 1.7885714286, 1.6571428571, 1.4685714286, 1.2657142857, 0.92, 0.7914285714, 0.68, 0.5428571429, 0.3657142857, 0.1171428571, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+--- [SEÇÃO 2: MÉTRICAS COMPARATIVAS GLOBAIS] ---
+Estratégia: relatorio_maior_utilizacao.csv | Espera: 3265.0h | Risco: 12315.0 | Débito: 1467.0h
+Estratégia: relatorio_menor_custo_terminal.csv | Espera: 3265.0h | Risco: 12315.0 | Débito: 1467.0h
+Estratégia: relatorio_menor_risco_clinico.csv | Espera: 3245.0h | Risco: 12235.0 | Débito: 1539.0h
+Estratégia: relatorio_menor_tempo_espera.csv | Espera: 3243.0h | Risco: 12325.0 | Débito: 1467.0h
+Estratégia: relatorio_solucao_balanceada.csv | Espera: 3243.0h | Risco: 12325.0 | Débito: 1467.0h
+
+--- [SEÇÃO 3: AUDITORIA NOMINAL POR ESTRATÉGIA] ---
+
+>> ANÁLISE DETALHADA: relatorio_maior_utilizacao.csv
+   * Taxa de Transbordamento (Estouro): 3 pacientes
+     - AIH 3124125788510 (Grav 3): Estouro de 72h (Sai em 1272h)
+     - AIH 3124125803139 (Grav 3): Estouro de 25h (Sai em 1225h)
+     - AIH 3124125807320 (Grav 7): Estouro de 168h (Sai em 1368h)
+
+>> ANÁLISE DETALHADA: relatorio_menor_custo_terminal.csv
+   * Taxa de Transbordamento (Estouro): 3 pacientes
+     - AIH 3124125788510 (Grav 3): Estouro de 72h (Sai em 1272h)
+     - AIH 3124125803139 (Grav 3): Estouro de 25h (Sai em 1225h)
+     - AIH 3124125807320 (Grav 7): Estouro de 168h (Sai em 1368h)
+
+>> ANÁLISE DETALHADA: relatorio_menor_risco_clinico.csv
+   * Taxa de Transbordamento (Estouro): 4 pacientes
+     - AIH 3124125784164 (Grav 3): Estouro de 24h (Sai em 1224h)
+     - AIH 3124125788510 (Grav 3): Estouro de 72h (Sai em 1272h)
+     - AIH 3124125803139 (Grav 3): Estouro de 25h (Sai em 1225h)
+     - AIH 3124125807320 (Grav 7): Estouro de 168h (Sai em 1368h)
+
+>> ANÁLISE DETALHADA: relatorio_menor_tempo_espera.csv
+   * Taxa de Transbordamento (Estouro): 3 pacientes
+     - AIH 3124125788510 (Grav 3): Estouro de 72h (Sai em 1272h)
+     - AIH 3124125803139 (Grav 3): Estouro de 25h (Sai em 1225h)
+     - AIH 3124125807320 (Grav 7): Estouro de 168h (Sai em 1368h)
+
+>> ANÁLISE DETALHADA: relatorio_solucao_balanceada.csv
+   * Taxa de Transbordamento (Estouro): 3 pacientes
+     - AIH 3124125788510 (Grav 3): Estouro de 72h (Sai em 1272h)
+     - AIH 3124125803139 (Grav 3): Estouro de 25h (Sai em 1225h)
+     - AIH 3124125807320 (Grav 7): Estouro de 168h (Sai em 1368h)

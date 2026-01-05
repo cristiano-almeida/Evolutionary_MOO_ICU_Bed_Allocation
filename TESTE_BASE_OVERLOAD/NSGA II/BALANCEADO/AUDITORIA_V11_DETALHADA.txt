@@ -1,0 +1,51 @@
+====================================================================================================
+🔴 DOSSIÊ DE AUDITORIA V11 - ANÁLISE DE INSOLVÊNCIA HOSPITALAR
+Emissão: 2025-12-25 12:38:12.123871 | Log: log_balanceado.txt
+====================================================================================================
+
+--- [SEÇÃO 1: EVOLUÇÃO DO ALGORITMO] ---
+Geração de Viabilidade: 21
+Diversidade Final (Pareto Size): 22
+Variação de CV_AVG: [7.3857142857, 5.5685714286, 4.7742857143, 4.1685714286, 3.5771428571, 3.1685714286, 2.6571428571, 2.4542857143, 2.1314285714, 1.7828571429, 1.6571428571, 1.5085714286, 1.2542857143, 0.9571428571, 0.8514285714, 0.7657142857, 0.66, 0.56, 0.3914285714, 0.2057142857, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+--- [SEÇÃO 2: MÉTRICAS COMPARATIVAS GLOBAIS] ---
+Estratégia: relatorio_maior_utilizacao (2).csv | Espera: 4532.0h | Risco: 18992.0 | Débito: 1675.0h
+Estratégia: relatorio_menor_custo_terminal (2).csv | Espera: 4522.0h | Risco: 18962.0 | Débito: 1673.0h
+Estratégia: relatorio_menor_risco_clinico (2).csv | Espera: 4081.0h | Risco: 16811.0 | Débito: 2412.0h
+Estratégia: relatorio_menor_tempo_espera (2).csv | Espera: 4034.0h | Risco: 17070.0 | Débito: 2845.0h
+Estratégia: relatorio_solucao_balanceada (2).csv | Espera: 4434.0h | Risco: 18698.0 | Débito: 1684.0h
+
+--- [SEÇÃO 3: AUDITORIA NOMINAL POR ESTRATÉGIA] ---
+
+>> ANÁLISE DETALHADA: relatorio_maior_utilizacao (2).csv
+   * Taxa de Transbordamento (Estouro): 3 pacientes
+     - AIH 3124125772295 (Grav 7): Estouro de 19h (Sai em 1219h)
+     - AIH 3124125788510 (Grav 3): Estouro de 122h (Sai em 1322h)
+     - AIH 3124125807320 (Grav 7): Estouro de 168h (Sai em 1368h)
+
+>> ANÁLISE DETALHADA: relatorio_menor_custo_terminal (2).csv
+   * Taxa de Transbordamento (Estouro): 3 pacientes
+     - AIH 3124125772295 (Grav 7): Estouro de 17h (Sai em 1217h)
+     - AIH 3124125788510 (Grav 3): Estouro de 126h (Sai em 1326h)
+     - AIH 3124125807320 (Grav 7): Estouro de 168h (Sai em 1368h)
+
+>> ANÁLISE DETALHADA: relatorio_menor_risco_clinico (2).csv
+   * Taxa de Transbordamento (Estouro): 4 pacientes
+     - AIH 3124125772295 (Grav 7): Estouro de 48h (Sai em 1248h)
+     - AIH 3124125784164 (Grav 3): Estouro de 148h (Sai em 1348h)
+     - AIH 3124125788510 (Grav 3): Estouro de 152h (Sai em 1352h)
+     - AIH 3124125807320 (Grav 7): Estouro de 168h (Sai em 1368h)
+
+>> ANÁLISE DETALHADA: relatorio_menor_tempo_espera (2).csv
+   * Taxa de Transbordamento (Estouro): 5 pacientes
+     - AIH 3124125772295 (Grav 7): Estouro de 73h (Sai em 1273h)
+     - AIH 3124125784164 (Grav 3): Estouro de 186h (Sai em 1386h)
+     - AIH 3124125788510 (Grav 3): Estouro de 151h (Sai em 1351h)
+     - AIH 3124125803139 (Grav 3): Estouro de 49h (Sai em 1249h)
+     - AIH 3124125807320 (Grav 7): Estouro de 168h (Sai em 1368h)
+
+>> ANÁLISE DETALHADA: relatorio_solucao_balanceada (2).csv
+   * Taxa de Transbordamento (Estouro): 3 pacientes
+     - AIH 3124125772295 (Grav 7): Estouro de 18h (Sai em 1218h)
+     - AIH 3124125788510 (Grav 3): Estouro de 125h (Sai em 1325h)
+     - AIH 3124125807320 (Grav 7): Estouro de 169h (Sai em 1369h)

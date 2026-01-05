@@ -1,0 +1,45 @@
+====================================================================================================
+🔴 DOSSIÊ DE AUDITORIA V11 PRO - HOSPITAL DE GRANDE PORTE (N:1171 | L:186)
+Emissão: 2025-12-29 21:23:30.165734 | Log Original: log_exploratorio.txt
+====================================================================================================
+
+--- [SEÇÃO 1: PERFORMANCE COMPUTACIONAL] ---
+Geração de Viabilidade: 17
+Pareto Size Final: 13
+Média de Violações Inicial: 37.64
+
+--- [SEÇÃO 2: RESULTADOS DE ESCALA REAL] ---
+
+>> ESTRATÉGIA: relatorio_maior_utilizacao.csv
+   * Espera Média por Paciente: 57.63 horas
+   * Taxa de Saturação Real: 74.53%
+   * Débito de Leitos (Transbordamento): 13927.0 horas
+   * Pacientes Empurrados para Ciclo Futuro: 24
+
+>> ESTRATÉGIA: relatorio_menor_custo_terminal.csv
+   * Espera Média por Paciente: 57.63 horas
+   * Taxa de Saturação Real: 74.53%
+   * Débito de Leitos (Transbordamento): 13927.0 horas
+   * Pacientes Empurrados para Ciclo Futuro: 24
+
+>> ESTRATÉGIA: relatorio_menor_risco_clinico.csv
+   * Espera Média por Paciente: 52.84 horas
+   * Taxa de Saturação Real: 74.53%
+   * Débito de Leitos (Transbordamento): 15856.0 horas
+   * Pacientes Empurrados para Ciclo Futuro: 25
+
+>> ESTRATÉGIA: relatorio_menor_tempo_espera.csv
+   * Espera Média por Paciente: 52.84 horas
+   * Taxa de Saturação Real: 74.53%
+   * Débito de Leitos (Transbordamento): 15856.0 horas
+   * Pacientes Empurrados para Ciclo Futuro: 25
+
+>> ESTRATÉGIA: relatorio_solucao_balanceada.csv
+   * Espera Média por Paciente: 57.63 horas
+   * Taxa de Saturação Real: 74.53%
+   * Débito de Leitos (Transbordamento): 13927.0 horas
+   * Pacientes Empurrados para Ciclo Futuro: 24
+
+--- [SEÇÃO 3: CONCLUSÃO DO AUDITOR] ---
+O cenário de 1.171 pacientes comprova a robustez do Oráculo Evolutivo.
+A capacidade física de 186 leitos foi testada ao limite operacional.
