@@ -1,0 +1,33 @@
+====================================================================================================
+🔴 DOSSIÊ DE AUDITORIA V11 - ANÁLISE DE INSOLVÊNCIA HOSPITALAR
+Emissão: 2025-12-25 13:38:58.982756 | Log: log_exploratorio (2).txt
+====================================================================================================
+
+--- [SEÇÃO 1: EVOLUÇÃO DO ALGORITMO] ---
+Geração de Viabilidade: 6
+Diversidade Final (Pareto Size): 350
+Variação de CV_AVG: [2.9885714286, 1.5942857143, 0.9228571429, 0.4571428571, 0.1542857143, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+--- [SEÇÃO 2: MÉTRICAS COMPARATIVAS GLOBAIS] ---
+Estratégia: relatorio_maior_utilizacao (4).csv | Espera: 912.0h | Risco: 2736.0 | Débito: 0.0h
+Estratégia: relatorio_menor_custo_terminal (4).csv | Espera: 912.0h | Risco: 2736.0 | Débito: 0.0h
+Estratégia: relatorio_menor_risco_clinico (4).csv | Espera: 912.0h | Risco: 2736.0 | Débito: 0.0h
+Estratégia: relatorio_menor_tempo_espera (4).csv | Espera: 912.0h | Risco: 2736.0 | Débito: 0.0h
+Estratégia: relatorio_solucao_balanceada (4).csv | Espera: 912.0h | Risco: 2736.0 | Débito: 0.0h
+
+--- [SEÇÃO 3: AUDITORIA NOMINAL POR ESTRATÉGIA] ---
+
+>> ANÁLISE DETALHADA: relatorio_maior_utilizacao (4).csv
+   * Taxa de Transbordamento (Estouro): 0 pacientes
+
+>> ANÁLISE DETALHADA: relatorio_menor_custo_terminal (4).csv
+   * Taxa de Transbordamento (Estouro): 0 pacientes
+
+>> ANÁLISE DETALHADA: relatorio_menor_risco_clinico (4).csv
+   * Taxa de Transbordamento (Estouro): 0 pacientes
+
+>> ANÁLISE DETALHADA: relatorio_menor_tempo_espera (4).csv
+   * Taxa de Transbordamento (Estouro): 0 pacientes
+
+>> ANÁLISE DETALHADA: relatorio_solucao_balanceada (4).csv
+   * Taxa de Transbordamento (Estouro): 0 pacientes
