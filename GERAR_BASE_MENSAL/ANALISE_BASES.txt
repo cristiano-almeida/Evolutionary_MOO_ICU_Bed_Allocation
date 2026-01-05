@@ -1,0 +1,57 @@
+(.venv) C:\Users\User\Desktop\_otimizador\NSGA-II_GDE3_Otimiza-o_Leitos_UTI>python analise_bases.py
+📂 Iniciando consolidação da Base Master em: D:\2025\UFJF\ETLSIH
+   ✅ 2023-8 lido.
+   ✅ 2023-8 lido.
+   ✅ 2023-12 lido.
+   ✅ 2023-1 lido.
+   ✅ 2022-12 lido.
+   ✅ 2023-2 lido.
+   ✅ 2023-4 lido.
+   ✅ 2023-5 lido.
+   ✅ 2023-5 lido.
+   ✅ 2023-6 lido.
+   ✅ 2023-7 lido.
+   ✅ 2023-8 lido.
+   ✅ 2024-7 lido.
+   ✅ 2024-10 lido.
+   ✅ 2024-12 lido.
+   ✅ 2023-12 lido.
+   ✅ 2023-12 lido.
+   ✅ 2024-2 lido.
+   ✅ 2024-3 lido.
+   ✅ 2024-4 lido.
+   ✅ 2024-5 lido.
+   ✅ 2024-7 lido.
+   ✅ 2024-7 lido.
+   ✅ 2024-7 lido.
+   ✅ 2025-1 lido.
+   ✅ 2024-12 lido.
+   ✅ 2025-3 lido.
+   ✅ 2025-4 lido.
+   ✅ 2024-12 lido.
+
+🧹 Iniciando limpeza de duplicatas de faturamento...
+✨ Limpeza concluída: 31981 registros redundantes removidos.
+🏆 Base Master final gerada com 97309 registros únicos.
+
+🧐 Reanalisando cenários para teste de 30 dias...
+
+🎯 TOP 3 CENÁRIOS REAIS PARA O EXPERIMENTO:
+- Hospital 21583042000172.0 em 2023/3:
+  * 1171.0 internações únicas no mês.
+  * Gravidade Média: 3.75 (±1.56)
+  * Leitos necessários para Espera Zero: 233
+  * Sugestão de Estresse para Artigo: 186 leitos.
+----------------------------------------
+- Hospital 21583042000172.0 em 2023/5:
+  * 1140.0 internações únicas no mês.
+  * Gravidade Média: 3.79 (±1.59)
+  * Leitos necessários para Espera Zero: 230
+  * Sugestão de Estresse para Artigo: 184 leitos.
+----------------------------------------
+- Hospital 21583042000172.0 em 2024/5:
+  * 1138.0 internações únicas no mês.
+  * Gravidade Média: 3.73 (±1.55)
+  * Leitos necessários para Espera Zero: 234
+  * Sugestão de Estresse para Artigo: 187 leitos.
+----------------------------------------

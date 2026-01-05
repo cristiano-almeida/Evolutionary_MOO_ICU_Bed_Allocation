@@ -1,0 +1,29 @@
+(.venv) C:\Users\User\Desktop\_otimizador\NSGA-II_GDE3_Otimiza-o_Leitos_UTI>python auditor_forense_pcdas.py
+🕵️ Iniciando Auditoria Forense...
+🔎 Procurando por 26 IDs de pacientes nas bases originais...
+✅ Achados 2 IDs em ETLSIH.ST_MG_2023_9_t.csv. Restam 24.
+✅ Achados 2 IDs em ETLSIH.ST_MG_2023_8_t.csv. Restam 22.
+✅ Achados 11 IDs em ETLSIH.ST_MG_2023_7_t.csv. Restam 11.
+✅ Achados 4 IDs em ETLSIH.ST_MG_2023_6_t.csv. Restam 7.
+✅ Achados 5 IDs em ETLSIH.ST_MG_2023_5_t.csv. Restam 2.
+✅ Achados 2 IDs em ETLSIH.ST_MG_2023_4_t.csv. Restam 0.
+
+
+================================================================================
+📊 SUMÁRIO DA AUDITORIA FORENSE
+================================================================================
+Total de IDs buscados: 26
+Total de IDs localizados: 26
+Hospitalizações processadas: 26
+Custo Total das AIHs auditadas: R$ 234,220.56
+Óbitos detectados na amostra: 2
+--------------------------------------------------------------------------------
+📁 Relatório completo gerado: RELATORIO_AUDITORIA_DETALHADA.csv
+
+🔝 TOP 5 CASOS POR PERMANÊNCIA (Saturação):
+        N_AIH DIAG_PRINC  DIAS_PERM  DESFECHO
+3123129239318       R100         51 ALTA/PERM
+3123129279501       G409         45 ALTA/PERM
+3123129242541       P073         39 ALTA/PERM
+3123129244279       A499         39 ALTA/PERM
+3123129279402       G404         38 ALTA/PERM
